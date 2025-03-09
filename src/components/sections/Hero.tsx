@@ -1,8 +1,13 @@
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+
+
+
+
+
 const Hero = () => {
-  const projectImage = import.meta.env.VITE_PROJECT_IMAGE_1; // Fetch from .env
+  const projectImage = import.meta.env.VITE_PROJECT_IMAGE_6; // Fetch from .env
 
   const scrollToAbout = () => {
     const aboutSection = document.getElementById("about");
