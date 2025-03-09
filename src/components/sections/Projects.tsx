@@ -10,7 +10,7 @@ const projects = [
     title: "ai-music-generator",
     description: "A modern e-commerce platform built with React, Redux, and Firebase. Features include product filtering, cart functionality, user authentication, and payment processing.",
     tags: ["React", "Redux", "Firebase", "Stripe"],
-    image: "public/image.png",
+    image: import.meta.env.VITE_PROJECT_IMAGE_1, // Vite (for React Vite projects)
     liveUrl: "https://v0-perfect-frontend-code.vercel.app/",
     githubUrl: "https://github.com/sachin78995/ai-music"
   },
@@ -18,7 +18,7 @@ const projects = [
     title: "stay-finder",
     description: "A task management application inspired by Trello. Built with React, React Beautiful DnD, and a Node.js backend.",
     tags: ["React", "Node.js", "Express", "MongoDB"],
-    image: "/placeholder.svg",
+    image: import.meta.env.VITE_PROJECT_IMAGE_2,
     liveUrl: "https://airbnb-8qv1.onrender.com/login",
     githubUrl: "https://github.com/sachin78995/StayFinder"
   },
@@ -26,7 +26,7 @@ const projects = [
     title: "Weather Dashboard",
     description: "A beautiful weather dashboard that displays current weather conditions and forecasts. Integrates with OpenWeather API.",
     tags: ["JavaScript", "API Integration", "CSS Grid"],
-    image: "public/image2.png",
+    image: import.meta.env.VITE_PROJECT_IMAGE_3,
     liveUrl: "https://weather-app-lac-phi-27.vercel.app/",
     githubUrl: "https://github.com/sachin78995/weather-app"
   },
@@ -34,7 +34,7 @@ const projects = [
     title: "Portfolio Website",
     description: "A responsive portfolio website built with React and Tailwind CSS. Features smooth scrolling, dark mode, and contact form.",
     tags: ["React", "Tailwind CSS", "Framer Motion"],
-    image: "public/images/image1.png",
+    image: import.meta.env.VITE_PROJECT_IMAGE_4,
     liveUrl: "#",
     githubUrl: "#"
   },
@@ -42,12 +42,12 @@ const projects = [
     title: "Noughts-Crosses-2.0",
     description: "If you want to create a Noughts and Crosses (Tic-Tac-Toe) game using only JavaScript, you can do so with HTML, CSS, and vanilla JavaScript (no frameworks like React). Below is a simple implementation",
     tags: ["React", "Tailwind CSS", "Framer Motion"],
-    image: "public/image3.png",
+    image: import.meta.env.VITE_PROJECT_IMAGE_5,
     liveUrl: "https://noughts-crosses-2-0.vercel.app/",
     githubUrl: "https://github.com/sachin78995/Noughts-Crosses-2.0"
   },
-
 ];
+
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
