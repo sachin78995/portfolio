@@ -10,7 +10,7 @@ const projects = [
     title: "ai-music-generator",
     description: "A modern e-commerce platform built with React, Redux, and Firebase. Features include product filtering, cart functionality, user authentication, and payment processing.",
     tags: ["React", "Redux", "Firebase", "Stripe"],
-    image: "src/components/sections/image.png",
+    image: "public/image.png",
     liveUrl: "https://v0-perfect-frontend-code.vercel.app/",
     githubUrl: "https://github.com/sachin78995/ai-music"
   },
@@ -26,7 +26,7 @@ const projects = [
     title: "Weather Dashboard",
     description: "A beautiful weather dashboard that displays current weather conditions and forecasts. Integrates with OpenWeather API.",
     tags: ["JavaScript", "API Integration", "CSS Grid"],
-    image: "src/components/sections/image2.png",
+    image: "public/image2.png",
     liveUrl: "https://weather-app-lac-phi-27.vercel.app/",
     githubUrl: "https://github.com/sachin78995/weather-app"
   },
@@ -34,7 +34,7 @@ const projects = [
     title: "Portfolio Website",
     description: "A responsive portfolio website built with React and Tailwind CSS. Features smooth scrolling, dark mode, and contact form.",
     tags: ["React", "Tailwind CSS", "Framer Motion"],
-    image: "src/components/sections/image1.png",
+    image: "public/images/image1.png",
     liveUrl: "#",
     githubUrl: "#"
   },
@@ -42,7 +42,7 @@ const projects = [
     title: "Noughts-Crosses-2.0",
     description: "If you want to create a Noughts and Crosses (Tic-Tac-Toe) game using only JavaScript, you can do so with HTML, CSS, and vanilla JavaScript (no frameworks like React). Below is a simple implementation",
     tags: ["React", "Tailwind CSS", "Framer Motion"],
-    image: "src/components/sections/image3.png",
+    image: "public/image3.png",
     liveUrl: "https://noughts-crosses-2-0.vercel.app/",
     githubUrl: "https://github.com/sachin78995/Noughts-Crosses-2.0"
   },
