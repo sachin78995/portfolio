@@ -18,7 +18,7 @@ const projects = [
     title: "stay-finder",
     description: "A task management application inspired by Trello. Built with React, React Beautiful DnD, and a Node.js backend.",
     tags: ["React", "Node.js", "Express", "MongoDB"],
-    image: "/images/image1.png", // Updated
+    image: "public/images/image1.png", // Updated
     liveUrl: "https://airbnb-8qv1.onrender.com/login",
     githubUrl: "https://github.com/sachin78995/StayFinder"
   },
