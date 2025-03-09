@@ -71,7 +71,7 @@ const Hero = () => {
           <div className="md:col-span-5 flex justify-center md:justify-end animate-slide-up" style={{ animationDelay: '0.2s' }}>
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/50 backdrop-blur-sm flex items-center justify-center text-white text-xl font-bold">
-                <img src="src\components\sections\DSC_9314.JPG" alt="" />
+                <img src="public\DSC_9314.JPG" alt="" />
               </div>
             </div>
           </div>
