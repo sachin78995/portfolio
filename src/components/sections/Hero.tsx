@@ -1,8 +1,9 @@
-
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
+  const projectImage = import.meta.env.VITE_PROJECT_IMAGE_1; // Fetch from .env
+
   const scrollToAbout = () => {
     const aboutSection = document.getElementById("about");
     if (aboutSection) {
@@ -17,6 +18,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center pt-20">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+          {/* Left Content */}
           <div className="md:col-span-7 space-y-6 animate-slide-up">
             <div className="flex flex-wrap gap-2">
               <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">
@@ -68,15 +70,15 @@ const Hero = () => {
             </div>
           </div>
           
+          {/* Right Image */}
           <div className="md:col-span-5 flex justify-center md:justify-end animate-slide-up" style={{ animationDelay: '0.2s' }}>
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/50 backdrop-blur-sm flex items-center justify-center text-white text-xl font-bold">
-                <img src="public\DSC_9314.JPG" alt="" />
-              </div>
+              <img src={projectImage} alt="Project" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
         
+        {/* Scroll Button */}
         <div className="absolute bottom-10 left-0 right-0 flex justify-center animate-bounce hidden md:flex">
           <Button
             variant="ghost"
