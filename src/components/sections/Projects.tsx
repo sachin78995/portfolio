@@ -6,22 +6,16 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 const projects = [
-  {
-    title: "ai-music-generator",
-    description: "A modern e-commerce platform built with React, Redux, and Firebase. Features include product filtering, cart functionality, user authentication, and payment processing.",
-    tags: ["React", "Redux", "Firebase", "Stripe"],
-    image: import.meta.env.VITE_PROJECT_IMAGE_1, // Vite (for React Vite projects)
-    liveUrl: "https://v0-perfect-frontend-code.vercel.app/",
+    {
+    title: "converse-pro",
+    description: "chat-platform",
+    tags: ["React", "mongodb", "vercel", "javascript"],
+    image: import.meta.env.VITE_PROJECT_IMAGE_7, // Vite (for React Vite projects)
+    liveUrl: "https://converse-pro-t5nc.vercel.app/",
     githubUrl: "https://github.com/sachin78995/ai-music"
   },
-  {
-    title: "stay-finder",
-    description: "A task management application inspired by Trello. Built with React, React Beautiful DnD, and a Node.js backend.",
-    tags: ["React", "Node.js", "Express", "MongoDB"],
-    image: import.meta.env.VITE_PROJECT_IMAGE_2,
-    liveUrl: "https://airbnb-8qv1.onrender.com/login",
-    githubUrl: "https://github.com/sachin78995/StayFinder"
-  },
+
+
   {
     title: "Weather Dashboard",
     description: "A beautiful weather dashboard that displays current weather conditions and forecasts. Integrates with OpenWeather API.",
@@ -46,6 +40,24 @@ const projects = [
     liveUrl: "https://noughts-crosses-2-0.vercel.app/",
     githubUrl: "https://github.com/sachin78995/Noughts-Crosses-2.0"
   },
+  
+  {
+    title: "stay-finder",
+    description: "A task management application inspired by Trello. Built with React, React Beautiful DnD, and a Node.js backend.",
+    tags: ["React", "Node.js", "Express", "MongoDB"],
+    image: import.meta.env.VITE_PROJECT_IMAGE_2,
+    liveUrl: "https://airbnb-8qv1.onrender.com/login",
+    githubUrl: "https://github.com/sachin78995/StayFinder"
+  },
+    {
+    title: "ai-music-generator",
+    description: "A modern e-commerce platform built with React, Redux, and Firebase. Features include product filtering, cart functionality, user authentication, and payment processing.",
+    tags: ["React", "Redux", "Firebase", "Stripe"],
+    image: import.meta.env.VITE_PROJECT_IMAGE_1, // Vite (for React Vite projects)
+    liveUrl: "https://v0-perfect-frontend-code.vercel.app/",
+    githubUrl: "https://github.com/sachin78995/ai-music"
+  },
+  
 ];
 
 
