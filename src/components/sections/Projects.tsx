@@ -7,12 +7,12 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const projects = [
     {
-    title: "converse-pro",
-    description: "chat-platform",
+    title: "healthguard-ai",
+    description: "",
     tags: ["React", "mongodb", "vercel", "javascript"],
     image: import.meta.env.VITE_PROJECT_IMAGE_7, // Vite (for React Vite projects)
-    liveUrl: "https://converse-pro-t5nc.vercel.app/",
-    githubUrl: "https://github.com/sachin78995/ai-music"
+    liveUrl: "https://healthguard-ai-companion.onrender.com/",
+    githubUrl: "https://github.com/sachin78995/healthai"
   },
 
 
@@ -46,8 +46,8 @@ const projects = [
     description: "A task management application inspired by Trello. Built with React, React Beautiful DnD, and a Node.js backend.",
     tags: ["React", "Node.js", "Express", "MongoDB"],
     image: import.meta.env.VITE_PROJECT_IMAGE_2,
-    liveUrl: "https://airbnb-8qv1.onrender.com/login",
-    githubUrl: "https://github.com/sachin78995/StayFinder"
+    liveUrl: "https://airbnb-1-4ky9.onrender.com/login",
+    githubUrl: "https://github.com/sachin78995/airbnb"
   },
     {
     title: "ai-music-generator",
